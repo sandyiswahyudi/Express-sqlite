@@ -1,0 +1,31 @@
+###
+POST  http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email" : "jvalley@gmail.com",
+    "password" : "qweasd123"
+}
+
+###
+GET http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+###
+DELETE  http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : 1
+}
+
+###
+PATCH http://localhost:8000/api/user/edit/2
+Content-Type: application/json
+
+{
+    "email" : "test@gmail.com"
+}
